@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 contract SellAHouse {
-//
+
   struct House {
     bytes32 houseName;
     uint askingPrice;
