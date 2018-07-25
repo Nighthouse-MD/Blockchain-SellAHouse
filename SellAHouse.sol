@@ -90,7 +90,6 @@ contract SellAHouse {
       sellToHighestBidder();
   }
 
-  // Returns the total votes a candidate has received
   function totalOffersRecieved() view public returns (uint) {
     return offers.length;
   }
